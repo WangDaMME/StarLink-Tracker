@@ -1,0 +1,9 @@
+/*** The integral css of Observer Info Component ***/
+
+/* ObserverInfo: <div className="observer-info-cotainer"> */
+
+.observer-info-container
+{
+    margin: 10px;
+    border: 1px solid #ccc;
+}
