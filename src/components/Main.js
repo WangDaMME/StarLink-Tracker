@@ -76,10 +76,10 @@ const Main = () =>
             </Col>
 
             <Col span={16}>
-                <WorldMap selelectedSatllites={satList.filter(sat => sat.selected)} 
+               <WorldMap selelectedSatllites={satList.filter(sat => sat.selected)} 
                           onTracking={setTracking} 
                           disabled={tracking}
-                          observerInfo={observerInfo}/>   
+                          observerInfo={observerInfo}/>    
             </Col>
 
         </Row>

@@ -9,27 +9,34 @@
 .App-logo
 {
   height: 60px;
-  padding-left: 30px;
+  padding-left: auto;
   color:white;
+  margin-left: 45%;
 }
 
 .title
 {
   font-size: 20px;
   font-weight: bold;
+  color: #000;
+  font-style: italic;
+  font-family: Verdana, Helvetica, Arial, 'Times New Roman', Times, serif;
+  margin-top: auto;
+  margin-left: 0%;
 }
 
 
 
 .ant-layout-header
 {
-  background-color: #7dbcea;
-  /* background-image:url('images/satelliteEarth.gif'); */
+  /* background-color: #7dbcea; */
+  background-image:url('images/milkyway2cropped.jpg');
+  background-size: 100%;
   display: flex;
   align-items: center;
   height: 70px;
   width: 100%;
-  color: #1f6099;
+  /* color: #1f6099; */
   box-shadow: rgb(220,220,220) 0px 10px;
 
 }
@@ -38,7 +45,7 @@
 .ant-layout-content
 {
   background: #fff;
-  min-height: 120px;
+  min-height: 100px;
 }
 
 
@@ -51,7 +58,9 @@
   /* background-color: #7dbcea; */
   /* background-image:url('images/giphy.gif'); */
 
-  background-image:url('images/satelliteEarth.gif'); 
+  background-image:url('images/satelliteEarth.gif' ); 
+  height: 90px;
+
   background-size: 100% 100%;
 
   color: #fff;

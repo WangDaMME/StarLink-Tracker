@@ -1,6 +1,7 @@
 import React from 'react'
 import {Layout} from 'antd'
 import starLinkLogo from './images/starlink_logo.svg'
+
 import Main from './components/Main';
 
 
@@ -14,7 +15,7 @@ function App()
     return (
         <Layout>
             <Header>
-                <img src={starLinkLogo} className = 'App-logo' alt='logo' />
+                <img src={starLinkLogo } height="500px" className = 'App-logo' alt='logo' />
                 <p className="title">StarLink Tracker</p>
             </Header>
 
